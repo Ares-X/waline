@@ -31,7 +31,7 @@ importers:
       markdownlint-cli: 0.32.2
       postcss: 8.4.20
       prettier: 2.8.1
-      sass: 1.56.2
+      sass: 1.57.0
       sort-package-json: 2.1.0
       stylelint: 14.16.0
       stylelint-config-prettier: 9.0.4
@@ -67,7 +67,7 @@ importers:
       markdownlint-cli: 0.32.2
       postcss: 8.4.20
       prettier: 2.8.1
-      sass: 1.56.2
+      sass: 1.57.0
       sort-package-json: 2.1.0
       stylelint: 14.16.0
       stylelint-config-prettier: 9.0.4_stylelint@14.16.0
@@ -76,8 +76,8 @@ importers:
       stylelint-order: 5.0.0_stylelint@14.16.0
       typescript: 4.9.4
       vercel: 28.8.0
-      vite: 4.0.1_sass@1.56.2
-      vitest: 0.25.8_sass@1.56.2
+      vite: 4.0.1_sass@1.57.0
+      vitest: 0.25.8_sass@1.57.0
 
   docs:
     specifiers:
@@ -3965,7 +3965,7 @@ packages:
       '@vuepress/shared': 2.0.0-beta.59
       '@vuepress/utils': 2.0.0-beta.59
       '@vueuse/core': 9.6.0_vue@3.2.45
-      sass: 1.56.2
+      sass: 1.57.0
       vue: 3.2.45
       vue-router: 4.1.6_vue@3.2.45
     transitivePeerDependencies:
@@ -12586,8 +12586,8 @@ packages:
       webpack: 5.75.0_webpack-cli@5.0.1
     dev: true
 
-  /sass/1.56.2:
-    resolution: {integrity: sha512-ciEJhnyCRwzlBCB+h5cCPM6ie/6f8HrhZMQOf5vlU60Y1bI1rx5Zb0vlDZvaycHsg/MqFfF1Eq2eokAa32iw8w==}
+  /sass/1.57.0:
+    resolution: {integrity: sha512-IZNEJDTK1cF5B1cGA593TPAV/1S0ysUDxq9XHjX/+SMy0QfUny+nfUsq5ZP7wWSl4eEf7wDJcEZ8ABYFmh3m/w==}
     engines: {node: '>=12.0.0'}
     hasBin: true
     dependencies:
@@ -14639,7 +14639,41 @@ packages:
       fsevents: 2.3.2
     dev: true
 
-  /vite/4.0.1_o2iixvyklpce477lkpnahelma4:
+  /vite/4.0.1_sass@1.57.0:
+    resolution: {integrity: sha512-kZQPzbDau35iWOhy3CpkrRC7It+HIHtulAzBhMqzGHKRf/4+vmh8rPDDdv98SWQrFWo6//3ozwsRmwQIPZsK9g==}
+    engines: {node: ^14.18.0 || >=16.0.0}
+    hasBin: true
+    peerDependencies:
+      '@types/node': '>= 14'
+      less: '*'
+      sass: '*'
+      stylus: '*'
+      sugarss: '*'
+      terser: ^5.4.0
+    peerDependenciesMeta:
+      '@types/node':
+        optional: true
+      less:
+        optional: true
+      sass:
+        optional: true
+      stylus:
+        optional: true
+      sugarss:
+        optional: true
+      terser:
+        optional: true
+    dependencies:
+      esbuild: 0.16.6
+      postcss: 8.4.20
+      resolve: 1.22.1
+      rollup: 3.7.4
+      sass: 1.57.0
+    optionalDependencies:
+      fsevents: 2.3.2
+    dev: true
+
+  /vite/4.0.1_tgddjot73shg6ayibr6vdef4zy:
     resolution: {integrity: sha512-kZQPzbDau35iWOhy3CpkrRC7It+HIHtulAzBhMqzGHKRf/4+vmh8rPDDdv98SWQrFWo6//3ozwsRmwQIPZsK9g==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
@@ -14669,46 +14703,12 @@ packages:
       postcss: 8.4.20
       resolve: 1.22.1
       rollup: 3.7.4
-      sass: 1.56.2
+      sass: 1.57.0
     optionalDependencies:
       fsevents: 2.3.2
     dev: true
 
-  /vite/4.0.1_sass@1.56.2:
-    resolution: {integrity: sha512-kZQPzbDau35iWOhy3CpkrRC7It+HIHtulAzBhMqzGHKRf/4+vmh8rPDDdv98SWQrFWo6//3ozwsRmwQIPZsK9g==}
-    engines: {node: ^14.18.0 || >=16.0.0}
-    hasBin: true
-    peerDependencies:
-      '@types/node': '>= 14'
-      less: '*'
-      sass: '*'
-      stylus: '*'
-      sugarss: '*'
-      terser: ^5.4.0
-    peerDependenciesMeta:
-      '@types/node':
-        optional: true
-      less:
-        optional: true
-      sass:
-        optional: true
-      stylus:
-        optional: true
-      sugarss:
-        optional: true
-      terser:
-        optional: true
-    dependencies:
-      esbuild: 0.16.6
-      postcss: 8.4.20
-      resolve: 1.22.1
-      rollup: 3.7.4
-      sass: 1.56.2
-    optionalDependencies:
-      fsevents: 2.3.2
-    dev: true
-
-  /vitest/0.25.8_sass@1.56.2:
+  /vitest/0.25.8_sass@1.57.0:
     resolution: {integrity: sha512-X75TApG2wZTJn299E/TIYevr4E9/nBo1sUtZzn0Ci5oK8qnpZAZyhwg0qCeMSakGIWtc6oRwcQFyFfW14aOFWg==}
     engines: {node: '>=v14.16.0'}
     hasBin: true
@@ -14743,7 +14743,7 @@ packages:
       tinybench: 2.3.1
       tinypool: 0.3.0
       tinyspy: 1.0.2
-      vite: 4.0.1_o2iixvyklpce477lkpnahelma4
+      vite: 4.0.1_tgddjot73shg6ayibr6vdef4zy
     transitivePeerDependencies:
       - less
       - sass
@@ -15172,7 +15172,7 @@ packages:
     dependencies:
       '@vuepress/utils': 2.0.0-beta.59
       chokidar: 3.5.3
-      sass: 1.56.2
+      sass: 1.57.0
       vuepress: 2.0.0-beta.59_zuhh5cekyzsqox63zj3ccba2ny
       vuepress-shared: 2.0.0-beta.143
     transitivePeerDependencies:
